@@ -1,0 +1,40 @@
+import 'package:geolocator/geolocator.dart';
+
+List<List<String>> dailyGroups = [];
+List<String> icons = [];
+List<double> temperatures = [];
+List<String> dates = [];
+List<String> tempMinList = [];
+List<String> dailyHours=[];
+List<String> descriptionList=[];
+List<double> maxTempList = [];
+List<double> minTempList = [];
+List<int> cloudList = [];
+List<int> humidityList = [];
+
+
+String selectedCity = "";
+String location = "ankara";
+double? temperature;
+final String key = "";
+var locationData;
+var code = "home";
+Position? devicePosition;
+String? icon;
+//var temp_min;
+// var temp_max;
+var sunrise;
+var sunset;
+var dailyhours;
+double? tempValue;
+double? maxTemp;
+double? minTemp;
+double? lon;
+double? lat;
+var description;
+String? formattedSunsetTime;
+String? formattedSunriseTime;
+var clouds;
+var humidity;
+var mbar;
+var feels_like;
